@@ -14,6 +14,14 @@
 		CA60855F1A67AAA000E9F7BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA60855E1A67AAA000E9F7BE /* Images.xcassets */; };
 		CA6085621A67AAA000E9F7BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6085601A67AAA000E9F7BE /* LaunchScreen.xib */; };
 		CA60857D1A67AB1000E9F7BE /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA60857C1A67AB1000E9F7BE /* Photos.framework */; };
+		CAC28CD11A67B37E00E2CA2D /* STAssetsCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CCA1A67B37E00E2CA2D /* STAssetsCollectionController.m */; };
+		CAC28CD21A67B37E00E2CA2D /* STAssetsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CCC1A67B37E00E2CA2D /* STAssetsCollectionViewLayout.m */; };
+		CAC28CD31A67B37E00E2CA2D /* STImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CCE1A67B37E00E2CA2D /* STImagePickerCell.m */; };
+		CAC28CD41A67B37E00E2CA2D /* STImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CD01A67B37E00E2CA2D /* STImagePickerController.m */; };
+		CAC28CD71A67B82F00E2CA2D /* STThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CD61A67B82F00E2CA2D /* STThumbnailCell.m */; };
+		CAC28CDA1A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CD91A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.m */; };
+		CAC28CDD1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CDC1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.m */; };
+		CAC28CE01A67BDDF00E2CA2D /* STAssetsCollectionVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC28CDF1A67BDDF00E2CA2D /* STAssetsCollectionVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,22 @@
 		CA60855E1A67AAA000E9F7BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA6085611A67AAA000E9F7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA60857C1A67AB1000E9F7BE /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		CAC28CC91A67B37E00E2CA2D /* STAssetsCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAssetsCollectionController.h; path = ../../Classes/STAssetsCollectionController.h; sourceTree = "<group>"; };
+		CAC28CCA1A67B37E00E2CA2D /* STAssetsCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAssetsCollectionController.m; path = ../../Classes/STAssetsCollectionController.m; sourceTree = "<group>"; };
+		CAC28CCB1A67B37E00E2CA2D /* STAssetsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAssetsCollectionViewLayout.h; path = ../../Classes/STAssetsCollectionViewLayout.h; sourceTree = "<group>"; };
+		CAC28CCC1A67B37E00E2CA2D /* STAssetsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAssetsCollectionViewLayout.m; path = ../../Classes/STAssetsCollectionViewLayout.m; sourceTree = "<group>"; };
+		CAC28CCD1A67B37E00E2CA2D /* STImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STImagePickerCell.h; path = ../../Classes/STImagePickerCell.h; sourceTree = "<group>"; };
+		CAC28CCE1A67B37E00E2CA2D /* STImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STImagePickerCell.m; path = ../../Classes/STImagePickerCell.m; sourceTree = "<group>"; };
+		CAC28CCF1A67B37E00E2CA2D /* STImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STImagePickerController.h; path = ../../Classes/STImagePickerController.h; sourceTree = "<group>"; };
+		CAC28CD01A67B37E00E2CA2D /* STImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STImagePickerController.m; path = ../../Classes/STImagePickerController.m; sourceTree = "<group>"; };
+		CAC28CD51A67B82F00E2CA2D /* STThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STThumbnailCell.h; path = ../../Classes/STThumbnailCell.h; sourceTree = "<group>"; };
+		CAC28CD61A67B82F00E2CA2D /* STThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STThumbnailCell.m; path = ../../Classes/STThumbnailCell.m; sourceTree = "<group>"; };
+		CAC28CD81A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAssetsCollectionOverlayView.h; path = ../../Classes/STAssetsCollectionOverlayView.h; sourceTree = "<group>"; };
+		CAC28CD91A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAssetsCollectionOverlayView.m; path = ../../Classes/STAssetsCollectionOverlayView.m; sourceTree = "<group>"; };
+		CAC28CDB1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAssetsCollectionCheckmarkView.h; path = ../../Classes/STAssetsCollectionCheckmarkView.h; sourceTree = "<group>"; };
+		CAC28CDC1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAssetsCollectionCheckmarkView.m; path = ../../Classes/STAssetsCollectionCheckmarkView.m; sourceTree = "<group>"; };
+		CAC28CDE1A67BDDF00E2CA2D /* STAssetsCollectionVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAssetsCollectionVideoView.h; path = ../../Classes/STAssetsCollectionVideoView.h; sourceTree = "<group>"; };
+		CAC28CDF1A67BDDF00E2CA2D /* STAssetsCollectionVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAssetsCollectionVideoView.m; path = ../../Classes/STAssetsCollectionVideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +126,22 @@
 		CA6085791A67AABB00E9F7BE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CAC28CDB1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.h */,
+				CAC28CDC1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.m */,
+				CAC28CC91A67B37E00E2CA2D /* STAssetsCollectionController.h */,
+				CAC28CCA1A67B37E00E2CA2D /* STAssetsCollectionController.m */,
+				CAC28CD81A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.h */,
+				CAC28CD91A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.m */,
+				CAC28CDE1A67BDDF00E2CA2D /* STAssetsCollectionVideoView.h */,
+				CAC28CDF1A67BDDF00E2CA2D /* STAssetsCollectionVideoView.m */,
+				CAC28CCB1A67B37E00E2CA2D /* STAssetsCollectionViewLayout.h */,
+				CAC28CCC1A67B37E00E2CA2D /* STAssetsCollectionViewLayout.m */,
+				CAC28CCD1A67B37E00E2CA2D /* STImagePickerCell.h */,
+				CAC28CCE1A67B37E00E2CA2D /* STImagePickerCell.m */,
+				CAC28CCF1A67B37E00E2CA2D /* STImagePickerController.h */,
+				CAC28CD01A67B37E00E2CA2D /* STImagePickerController.m */,
+				CAC28CD51A67B82F00E2CA2D /* STThumbnailCell.h */,
+				CAC28CD61A67B82F00E2CA2D /* STThumbnailCell.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -194,9 +234,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC28CD31A67B37E00E2CA2D /* STImagePickerCell.m in Sources */,
+				CAC28CDA1A67BBFD00E2CA2D /* STAssetsCollectionOverlayView.m in Sources */,
 				CA60855A1A67AAA000E9F7BE /* ViewController.m in Sources */,
 				CA6085571A67AAA000E9F7BE /* AppDelegate.m in Sources */,
 				CA6085541A67AA9F00E9F7BE /* main.m in Sources */,
+				CAC28CD21A67B37E00E2CA2D /* STAssetsCollectionViewLayout.m in Sources */,
+				CAC28CD41A67B37E00E2CA2D /* STImagePickerController.m in Sources */,
+				CAC28CD11A67B37E00E2CA2D /* STAssetsCollectionController.m in Sources */,
+				CAC28CE01A67BDDF00E2CA2D /* STAssetsCollectionVideoView.m in Sources */,
+				CAC28CDD1A67BC7000E2CA2D /* STAssetsCollectionCheckmarkView.m in Sources */,
+				CAC28CD71A67B82F00E2CA2D /* STThumbnailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +387,7 @@
 				CA6085731A67AAA000E9F7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

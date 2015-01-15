@@ -14,11 +14,11 @@
 		<string>github.com:sTogu/STImagePickerController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Demo/Demo/Demo.xcodeproj</string>
+	<string>Demo/Demo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>08DDE7DD759FE2E34FA255FD6CD05FAC6F5E682B</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:sTogu/STImagePickerController.git</string>
